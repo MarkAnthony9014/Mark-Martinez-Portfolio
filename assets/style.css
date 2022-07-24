@@ -87,6 +87,11 @@ header nav ul {
 .hero img {
     border-radius: 10px;
     margin-bottom: 10px;
+    border: 1px solid #c5c98f;
+}
+
+.hero img:hover {
+    border: 1px solid #fff2f8;
 }
 
   .hero h2 {
@@ -129,16 +134,19 @@ header nav ul {
     flex-wrap: wrap;
     margin: 0 auto;
     width: 100%;
-    /*border: 1px solid black;*/
     background-color: var(--tertiary-color);
     padding: 60px;
     font-size: 30px;
 }
 
+.Body-Of-Work {
+    border-radius: 10px;
+}
+
 .Body-Of-Work h3 {
     text-align: center;
     margin: 0 auto;
-    padding: 30px 10px 30px 10px;
+    padding: 20px 10px 30px 10px;
     font-size: 35px;
     display: block;
     width: 300px;
@@ -150,7 +158,7 @@ header nav ul {
    list-style: none;
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-evenly;
+   justify-content: space-around;
    margin: 0 auto;
    width: 80%;
    padding-bottom: 20px;
@@ -159,10 +167,22 @@ header nav ul {
 }
 
 .Body-Of-Work ul li {
-   width: 300px;
+   width: 50%;
    display: inline-block;
    padding: 20px;
    text-align: center;
+ 
+}
+
+div .first-application {
+   text-align: center;
+   width: 100%;
+   flex-wrap: wrap;
+}
+
+div .first-application li a img {
+   width: 75%;
+    
 }
 
 .Body-Of-Work ul li a {
@@ -171,7 +191,13 @@ header nav ul {
 }
 
 .Body-Of-Work ul li a img {
-    padding: 10px;
+    /*padding: 10px;*/
+    border: 2px solid #024e76;
+    border-radius: 10px;
+}
+
+.first-application {
+    display: inline;
 }
 
 /*.Body-Of-Work ul li a:visited {
